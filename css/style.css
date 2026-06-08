@@ -157,9 +157,15 @@ a {
   align-items: flex-end;
 
   /* BROKEN: This should not be a background image */
-  background-image: url('../images/hero.png');
-  background-size: cover;
-  background-position: center;
+ /* TASK 3: background-image removed, replaced with <img> in HTML */
+}
+/* TASK 3: positions the hero image to fill the section */
+.hero__picture {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .hero::after {
