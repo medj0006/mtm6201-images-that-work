@@ -17,7 +17,7 @@
   <header class="site-header">
     <div class="header-inner">
       <a href="#" class="logo-link">
-        <img src="images/ridgeline-logo.svg" alt="" class="logo">
+        <img src="images/ridgeline-logo-opt.svg" alt="Ridgeline outdoor brand logo" class="logo">
       </a>
       <nav class="site-nav">
         <a href="#">Gear</a>
@@ -39,6 +39,16 @@
     with a real <img> so srcset can work.
   ============================================================ -->
   <section class="hero">
+    <img
+       src="images/hero.png"
+       srcset="images/hero-400.webp 400w,
+               images/hero-800.webp 800w,
+               images/hero-1200.webp 1200w,
+               images/hero-1920.webp 1920w"
+       sizes ="100vw"
+       alt="Mountain trail surrounded by pine trees at golden hour"
+       class="hero__picture"
+    >
     <!-- Task 3: Add your <img> element here, before hero__content -->
     <div class="hero__content">
       <p class="hero__label">Spring / Summer 2026</p>
@@ -47,6 +57,7 @@
       <a href="#" class="btn btn--primary">Shop the Collection</a>
     </div>
   </section>
+  
 
 
   <!-- ============================================================
